@@ -1,1 +1,13 @@
-# Utopia TV Slide\n\nThis project contains HTML/JS/CSS files for internal TV display slides used by Utopia teams.\n\n## Folders\n- `Indoor/` – For Indoor Team slides\n- `Encik Beku/` – For Encik Beku BU slides\n\n## Purpose\nTo display team updates, photos, or operational reminders on Smart TV screens in the office.\n\n## Maintainer\nCharlieuTopia 👨‍💻
+# Utopia TV Slide
+
+This project contains HTML/JS/CSS files for internal TV display slides used by Utopia teams.
+
+## Folders
+- `Indoor/` – For Indoor Team slides  
+- `Encik Beku/` – For Encik Beku Warehouse slides
+
+## Purpose
+To display team updates, photos, or operational reminders on Smart TV screens in the office.
+
+## Maintainer
+Charlie

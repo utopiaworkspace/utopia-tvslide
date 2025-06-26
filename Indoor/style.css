@@ -1,0 +1,12 @@
+/* ✅ style.css – Layout for full-screen iframe */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+iframe {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+}

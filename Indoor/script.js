@@ -1,11 +1,24 @@
 let slideData = [];
+// 🔹 This will hold the list of slides fetched from the JSON (Google Apps Script)
+
 let currentIndex = 0;
+// 🔹 Tracks the index of the current slide being shown
+
 let iframe = document.getElementById("slideFrame");
+// 🔹 Get the <iframe> element where slides will be displayed
 
 async function fetchData() {
   const res = await fetch("https://script.google.com/macros/s/AKfycbx05L2pszrKYsW20NibtZo0ZVXDfNhtrDHoZ6g2w1JU1EhXcpIqGJ22xR9LbEwEM_YMjQ/exec");
+  // 🔹 Fetch slide data from Google Apps Script endpoint (returns JSON)
+
   slideData = await res.json();
-  showSlide(0); // Start
+  // 🔹 Convert the response to JSON and store it in slideData
+
+  console.log("✅ Slide data loaded:", slideData);
+  // 🔹 Log slide data for debugging (check developer tools console)
+
+  showSlide(0);
+  // 🔹 Start showing slides, beginning with the first one (index 0)
 }
 
 function showSlide(index) {
